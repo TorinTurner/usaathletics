@@ -56,3 +56,12 @@ input, button {
   border: 1px solid #5d8ffc;
   cursor: pointer;
 }
+
+/* iPhone-specific styles */
+@media only screen and (max-device-width: 480px) { 
+
+	html {
+		-webkit-text-size-adjust: none;
+		}
+
+}
